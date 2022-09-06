@@ -1,7 +1,6 @@
 {
   "name": "gy-virtual-table",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -10,10 +9,6 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+git@git.xxxx.com:maucash/maucash.git"
   },
   "files": [
     "dist",
