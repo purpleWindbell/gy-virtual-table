@@ -3,15 +3,15 @@
  * @StartVersion: 2.0
  * @LastVersion: 2.0
  * @Autor: gaoyue
- * @Date: 2022-09-06 17:10:36
- * @LastEditTime: 2022-09-06 17:23:06
+ * @Date: 2022-09-06 18:22:13
+ * @LastEditTime: 2022-09-06 18:22:24
  */
 const path = require('path')
 module.exports = {
   // 修改 src 为 examples
   pages: {
     index: {
-      entry: "src/examples/main.js",
+      entry: "examples/main.js",
       template: "public/index.html",
       filename: "index.html"
     }
@@ -21,7 +21,7 @@ module.exports = {
      // @ 默认指向 src 目录，这里要改成 examples
     // 另外也可以新增一个 ~ 指向 packages
     config.resolve.alias
-      .set('@', path.resolve('src'))
+      .set('@', path.resolve('examples'))
       .set('~', path.resolve('package'))
 
     config.module

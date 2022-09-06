@@ -4,9 +4,9 @@
  * @LastVersion: 2.0
  * @Autor: gaoyue
  * @Date: 2022-09-05 17:43:42
- * @LastEditTime: 2022-09-05 17:45:49
+ * @LastEditTime: 2022-09-06 18:20:35
  */
-import VirtualTable from './packages/gy-virtual-table/VirtualTable'
+import VirtualTable from './gy-virtual-table/VirtualTable'
 
 const components = [
     VirtualTable

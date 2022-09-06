@@ -4,7 +4,7 @@
  * @LastVersion: 2.0
  * @Autor: gaoyue
  * @Date: 2022-09-05 17:24:53
- * @LastEditTime: 2022-09-06 17:24:22
+ * @LastEditTime: 2022-09-06 18:25:28
 -->
 <template>
   <div id="app" style="width:200px">
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import VirtualTable from '@/packages/gy-virtual-table/VirtualTable'
+import VirtualTable from '../packages/VirtualTable'
 
 export default {
   name: 'App',

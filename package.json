@@ -1,7 +1,7 @@
 {
   "name": "gy-virtual-table",
-  "version": "0.1.0",
-  "main": "src/examples/main.js",
+  "version": "0.1.6",
+  "main": "index.js",
   "scripts": {
     "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
